@@ -135,7 +135,7 @@ const defaultProps: BreadcrumbsProps = {
  * @param props - object of type BreadcrumbsProps
  * @returns The breadcrumb React component.
  */
-const AppBreadcrumbs: FC<BreadcrumbsProps> = ({
+const Breadcrumbs: FC<BreadcrumbsProps> = ({
   useDefaultStyle,
   rootLabel,
   omitRootLabel,
@@ -228,6 +228,6 @@ const AppBreadcrumbs: FC<BreadcrumbsProps> = ({
   )
 }
 
-AppBreadcrumbs.defaultProps = defaultProps
+Breadcrumbs.defaultProps = defaultProps
 
-export default AppBreadcrumbs
+export default Breadcrumbs
